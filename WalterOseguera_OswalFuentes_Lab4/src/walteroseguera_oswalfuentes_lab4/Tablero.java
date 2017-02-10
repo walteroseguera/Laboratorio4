@@ -5,17 +5,18 @@
  */
 package walteroseguera_oswalfuentes_lab4;
 
+import java.util.ArrayList;
+
 /**
  *
  * @author Oswal
  */
-public class WalterOseguera_OswalFuentes_Lab4 {
+public class Tablero {
 
-    /**
-     * @param args the command line arguments
-     */
-    public static void main(String[] args) {
-        
+    public void Tablero() {
+        ArrayList<Pieza> blancas = new ArrayList();
+        ArrayList<Pieza> negras = new ArrayList();
+        Pieza[][] tablero = new Pieza[10][10];
+
     }
-    
 }
