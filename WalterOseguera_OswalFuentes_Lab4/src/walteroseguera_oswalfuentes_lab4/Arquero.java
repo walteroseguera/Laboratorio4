@@ -2,7 +2,7 @@ package walteroseguera_oswalfuentes_lab4;
 
 import java.awt.Color;
 
-public class Arquero extends Pieza{
+public class Arquero extends Pieza {
 
     public Arquero() {
     }
@@ -25,6 +25,11 @@ public class Arquero extends Pieza{
 
     public void setMaterial(String material) {
         this.material = material;
+    }
+
+    @Override
+    public void Mover(int X, int Y) {
+    
     }
     
 }

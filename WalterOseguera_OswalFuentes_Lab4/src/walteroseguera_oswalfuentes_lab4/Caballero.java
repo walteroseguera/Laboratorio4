@@ -26,4 +26,9 @@ public class Caballero extends Pieza {
     public void setMaterial(String material) {
         this.material = material;
     }   
+
+    @Override
+    public void Mover(int X, int Y) {
+        
+    }
 }

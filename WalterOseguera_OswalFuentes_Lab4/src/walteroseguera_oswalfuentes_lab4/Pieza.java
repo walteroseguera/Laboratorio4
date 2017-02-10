@@ -2,7 +2,7 @@ package walteroseguera_oswalfuentes_lab4;
 
 import java.awt.Color;
 
-public class Pieza {
+public abstract class Pieza implements Movimiento {
 
     protected Color color;
     protected String material;
@@ -30,4 +30,5 @@ public class Pieza {
     public void setMaterial(String material) {
         this.material = material;
     }
+
 }

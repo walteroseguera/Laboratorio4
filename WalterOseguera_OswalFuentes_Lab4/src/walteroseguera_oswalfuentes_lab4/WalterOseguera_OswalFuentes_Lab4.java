@@ -1,9 +1,5 @@
 package walteroseguera_oswalfuentes_lab4;
 
-/**
- *
- * @author Oswal
- */
 import java.util.ArrayList;
 import javax.swing.JOptionPane;
 
@@ -14,6 +10,8 @@ public class WalterOseguera_OswalFuentes_Lab4 {
         String Nombre, Usuario, LugarNacimiento, Sexo;
         int Puntos, Edad;
         ArrayList Jugadores = new ArrayList();
+        Tablero T = new Tablero();
+        Pieza[][] Tablero = T. Tablero();
         int Opcion = 0;
         while (Opcion != 4) {
             Opcion = Integer.parseInt(JOptionPane.showInputDialog("Bienvenido a Personas: \n"
@@ -51,5 +49,23 @@ public class WalterOseguera_OswalFuentes_Lab4 {
                     break;
             } // Fin switch
         } // Fin while
+        int X, Y;
+        X = Integer.parseInt(JOptionPane.showInputDialog("Ingrese la posicion en X de la pieza a mover: "));
+        Y = Integer.parseInt(JOptionPane.showInputDialog("Ingrese la posicion en Y de la pieza a mover: "));
+        if (X >= 0 && Y >= 0 || X <= 9 && X <= 9) {
+            while (X >= 0 && Y >= 0 || X <= 9 && Y <= 9){
+                for (int i = 0; i < Tablero.length; i++) {
+                    for (int j = 0; j < Tablero[i].length; j++) {
+                        if (i == X && j == Y) {
+                            
+                        } // Fin if
+                    } // Fin for j
+                } // Fin for i
+            } // Fin while
+        } /* Fin if */ else{
+            JOptionPane.showMessageDialog(null, "La posición de la pieza no existe");
+        } // Fin else
+        
+        
     } // Fin main
 }// Fin class WalterOseguera_OswalFuentes_Lab4

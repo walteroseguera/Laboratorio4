@@ -4,10 +4,10 @@ import java.util.ArrayList;
 
 public class Tablero {
 
-    public void Tablero() {
+    public Pieza[][] Tablero() {
         ArrayList<Pieza> blancas = new ArrayList();
         ArrayList<Pieza> negras = new ArrayList();
-        Pieza[][] tablero = new Pieza[10][10];
-
+        Pieza[][] Tablero = new Pieza[10][10];
+        return Tablero;
     }
 }
