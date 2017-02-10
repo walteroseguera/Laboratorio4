@@ -21,6 +21,7 @@ public class WalterOseguera_OswalFuentes_Lab4 {
                     + "1.- Agregar Personas\n"
                     + "2.- Eliminar Personas\n"
                     + "3.- Listar Personas\n"
+                    + "4.- Salir\n"
                     + "Eliga una de las opciones: "));
 
             switch (Opcion) {

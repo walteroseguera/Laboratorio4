@@ -79,7 +79,7 @@ public class Personas {
 
     @Override
     public String toString() {
-        return "Personas{" + "Nombre: " + Nombre + ", Usuario: " + Usuario + ", Puntos: " + Puntos + ", Lugar de Nacimiento: " + LugarNacimiento + ", Edad: " + Edad + ", Sexo: " + Sexo + '}' + "\n";
+        return "Personas {" + "Nombre: " + Nombre + ", Usuario: " + Usuario + ", Puntos: " + Puntos + ", Lugar de Nacimiento: " + LugarNacimiento + ", Edad: " + Edad + ", Sexo: " + Sexo + "'}'\n";
     }
     
 }
